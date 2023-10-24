@@ -14,7 +14,7 @@ function endFnc() {
     reset();
   }
 }
-// 버튼 클릭시 동작
+// 버튼 클릭시 동작 /
 const actionFun = {
   p1_up: function () {
     if (p1Score !== winningScore) {
