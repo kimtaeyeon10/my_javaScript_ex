@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SCORE KEEPER</title>
+  </head>
+  <body>
+    <h3>SCORE KEEPER</h3>
+    <h2 id="msg"></h2>
+    <p><span id="p1">0</span>to<span id="p2">0</span></p>
+
+    <h3>
+      Playing To
+      <select name="playingTo" id="playingTo">
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+      </select>
+    </h3>
+
+    <div id="score_buttons">
+      <button data-action="p1_up">+1 Player1</button>
+      <button data-action="p2_up">+1 Player2</button>
+      <button data-action="reset">Reset</button>
+    </div>
+
+    <script src="score_app.js"></script>
+  </body>
+</html>
